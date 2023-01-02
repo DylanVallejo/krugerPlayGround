@@ -1,0 +1,34 @@
+
+.headerContainer{
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    width: 99%;
+    margin: 5px auto;
+    border-bottom: 1px solid black;
+}
+.ulContainer{
+    list-style: none;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+.ulContainer > .liRefs > a {
+    margin: 10px 20px 10px 20px;
+    text-decoration: none;
+    font-size: 100%;
+    justify-content: space-evenly;
+}
+.nombreLogo{
+    list-style: none;
+    text-decoration: none;
+    /* background-color: aqua; */
+    
+    
+}
+.liRefs:nth-child(1){
+    margin-right: 20px;   
+}
+.liRefs:nth-child(3){
+    margin-left: 20px;
+}
