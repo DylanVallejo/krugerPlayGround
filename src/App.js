@@ -10,6 +10,10 @@ import './App.scss';
 import Navbar from './components/Navbar';
 import HomePage from './components/pages/HomePage';
 import AgeCalculatorPage from './components/pages/AgeCalculatorPage'; 
+import MasaPage from './components/pages/MasaPage';
+
+
+
 
 
 
@@ -36,7 +40,7 @@ function App() {
         <Navbar/>
           <Routes>
             <Route path={'/'} element={<HomePage />} />
-            {/* <Route path={'/imc'} element={<ImcCalculatorPage />} /> */}
+            <Route path={'/imc'} element={<MasaPage />} />
             <Route path={'/age'} element={<AgeCalculatorPage />} />
             {/* <Route path='/clock' element={<ClockPage />} /> */}
             {/* <Route path={'/about'} element={<AboutPage />} /> */}
