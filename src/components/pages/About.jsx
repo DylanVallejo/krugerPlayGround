@@ -9,5 +9,5 @@ const About = ( props) => {
             {/* <Main {...props} /> */}
         </div>
     )
-    }
+}
 export default About;
