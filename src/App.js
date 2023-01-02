@@ -12,6 +12,7 @@ import HomePage from './components/pages/HomePage';
 import AgeCalculatorPage from './components/pages/AgeCalculatorPage'; 
 import MasaPage from './components/pages/MasaPage';
 import ClockPage from './components/pages/ClockPage';
+import AboutPage from './components/pages/AboutPage';
 
 
 
@@ -44,7 +45,7 @@ function App() {
             <Route path={'/imc'} element={<MasaPage />} />
             <Route path={'/age'} element={<AgeCalculatorPage />} />
             <Route path={'/clock'} element={<ClockPage />} />
-            {/* <Route path={'/about'} element={<AboutPage />} /> */}
+            <Route path={'/about'} element={<AboutPage />} />
             {/* <Route path={'/contact'} element={<ContactPage />} /> */}
             
             

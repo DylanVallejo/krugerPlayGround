@@ -1,0 +1,23 @@
+.aboutContainer{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(300px, auto);
+    margin: 75px ;
+}
+.aboutImg{
+    grid: 1/2;
+    margin-right: -20%;
+    
+}
+.aboutImg > img{
+    height: 50vh;
+}
+.aboutText{
+    grid: 2/2;
+    padding: 50px;
+    text-align: left;
+}
+h2{
+    text-align: left;
+}
