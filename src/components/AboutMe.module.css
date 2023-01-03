@@ -7,15 +7,15 @@
 }
 .aboutImg{
     grid: 1/2;
-    margin-right: -20%;
+    margin-right: 20px;
     
 }
 .aboutImg > img{
-    height: 50vh;
+    height: 45vh;
 }
 .aboutText{
     grid: 2/2;
-    padding: 50px;
+    padding: 10px;
     text-align: left;
 }
 h2{
