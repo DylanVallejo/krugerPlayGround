@@ -10,7 +10,7 @@ const  Contact = () => {
                     <div className={styles.contactForm}>
                         <input type="text" placeholder="Name" className={styles.input}/>
                         <input type="text" placeholder="Last Name" className={styles.input} />
-                        <input type="text" placeholder="Email Adress" className={styles.input}/>
+                        <input type="email" placeholder="Email Adress" className={styles.input}/>
                         <textarea 
                             className={styles.textarea}
                             name="story"
