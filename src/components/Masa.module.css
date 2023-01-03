@@ -2,14 +2,29 @@
     background-color: #D9D9D9;
     border-radius: 12px;
     margin :auto;
-    width: 90%;
+    width: 70%;
     padding: 1%
 }
 .range{
     margin: 10px 40px 10px 40px;
-    width: 75%;
+    width: 70%;
     box-sizing: content-box;
 }
+input[type='range']::-webkit-slider-thumb {
+    -webkit-appearance: none;
+}
+input[type=range]::-webkit-slider-thumb{
+    margin-top: -3px;
+
+}
+input[type=range]::-webkit-slider-runnable-track{
+    background-color: rgb(98, 97, 97);
+    height: 2px;
+}
+/* 
+input[type=range]:focus::-webkit-slider-runnable-track{outline: none;
+background-color: aqua;} */
+
 .masaActual{
     margin-bottom: 0px;
 }
