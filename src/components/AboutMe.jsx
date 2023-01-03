@@ -4,7 +4,7 @@ const AboutMe = () => {
     return (
         <div className={styles.aboutContainer}>
             <div className={styles.aboutImg}>
-                <img src={require('./img/dylan.jpg')} ></img>
+                <img src={require('./img/dylan.jpg')} alt='Dylan' ></img>
             </div>
             <div className={styles.aboutText}>
                 <h2>Dylan Vallejo</h2>
