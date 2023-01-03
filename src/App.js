@@ -13,6 +13,7 @@ import AgeCalculatorPage from './components/pages/AgeCalculatorPage';
 import MasaPage from './components/pages/MasaPage';
 import ClockPage from './components/pages/ClockPage';
 import AboutPage from './components/pages/AboutPage';
+import ContactPage from './components/pages/ContactPage'; 
 
 
 
@@ -46,7 +47,7 @@ function App() {
             <Route path={'/age'} element={<AgeCalculatorPage />} />
             <Route path={'/clock'} element={<ClockPage />} />
             <Route path={'/about'} element={<AboutPage />} />
-            {/* <Route path={'/contact'} element={<ContactPage />} /> */}
+            <Route path={'/contact'} element={<ContactPage />} />
             
             
             
