@@ -23,9 +23,6 @@
     list-style: none;
     text-decoration: none;
     margin: auto;
-    /* background-color: aqua; */
-    
-    
 }
 .liRefs:nth-child(1){
     margin-right: 20px;   
@@ -37,114 +34,13 @@
     display: none;
 }
 
-
-/* .headerHamburguer .menuBtn {
-    display: none;
-  }
-  
-  .headerHamburguer .menuBtn:checked ~ .menu {
-    max-height: 240px;
-  }
-  
-  .headerHamburguer .menuBtn:checked ~ .menuIcon  {
-    background: transparent;
-  }
-  
-  .headerHamburguer .menuBtn:checked ~ .menuIcon {
-    transform: rotate(-45deg);
-  }
-  
-  .headerHamburguer .menubtn:checked ~ .menuIcon .navIcon:after {
-    transform: rotate(45deg);
-  } */
-
 @media (max-width:768px) {
-    
+  .headerContainer{
+    display: flex;
+    /* flex-direction: column; */
+  }
     .ulContainer{
-        display: none;
-    }
-    /* .headerHamburguer li {
-        float: left;
-      }
-      .headerHamburguer li a {
-        padding: 20px 30px;
-      }
-      .headerHamburguer .menu {
-        clear: none;
-        float: right;
-        max-height: none;
-      } */
-      /* .ulContainer{
-        display: none;
-     
-    } */
-    
-    /* .headerHamburguer .menuBtn {
-        display: none;
-      }
-      
-      .headerHamburguer .menuBtn:checked ~ .menu {
-        max-height: 240px;
-      }
-      
-      .headerHamburguer .menuBtn:checked ~ .menuIcon  {
-        background: transparent;
-      }
-      
-      .headerHamburguer .menuBtn:checked ~ .menuIcon {
-        transform: rotate(-45deg);
-      }
-      
-      .headerHamburguer .menubtn:checked ~ .menuIcon .navcon:after {
-        transform: rotate(45deg);
-      }
-       */
-      /* .headerHamburguer .menuBtn:checked ~ .menuIcon:not(.steps) .navicon:before,
-      .headerHamburguer .menuBtn:checked ~ .menuIcon:not(.steps) .navicon:after {
-        top: 0;
-      } */
-      
-    /* .hamburguer{
         display: block;
+      
     }
-    .hamburguer.active .bar:nth-child(2){
-        opacity: 0;
-    }
-    .hamburguer.active .bar:nth-child(1){
-        transform: translateY(8px) rotate(45deg);
-    }
-    .hamburguer.active .bar:nth-child(3){
-        transform: translateY(-8px) rotate(-45deg);
-    }
-
-    .liRefs{
-        margin: 16px 0;
-    }
-    .ulContainer.active{
-        left: 0;
-        
-    } */
 }
-
-
-
-
-/* @media screen and (max-width: 800px) {
-    .headerContainer a{
-        display: block;
-        font-size: 0.8em;
-        width: 100%;
-    }
-    .referencesList a:hover{
-        transition: color #52d053;
-        font-size: 0.9em;
-        -webkit-transition: all 0.2s ease;
-        -moz-transition: all 0.2s ease;
-        -o-transition: all 0.2s ease;
-        -ms-transition: all 0.2s ease;
-    }
-    .imgLogo{
-        height: 60px;
-        width: 60px;
-    }
-} */
