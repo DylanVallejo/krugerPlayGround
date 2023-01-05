@@ -65,3 +65,45 @@ line-height: 72px;
 
   
 }
+
+@media (max-width:768px) {
+   .formContainer{
+    width: 50%;
+    display: block;
+   }
+   .input:nth-child(1) {
+        
+        margin-right: 21px;
+        margin-bottom: 10px;
+        width: auto;
+    }
+    .input:nth-child(2){
+
+        margin-bottom: 10px;
+        width: auto;
+    }
+    .input:nth-child(3){
+        margin: 10px auto;
+        margin: auto;
+        width: auto;
+
+    }
+    .textarea{
+        border: 1px solid rgba(0, 0, 0, 0.5);
+        margin: 10px auto;
+        width: 100px;
+        height: 50px;
+    }
+    .buttonForm{
+        display: block;
+        background-color: #18A0FB;
+        color: white;
+        border: none;
+        border-radius: 6px;
+        
+        height: 40px;
+        width: 130px;
+
+    }
+    
+}

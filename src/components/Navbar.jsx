@@ -1,7 +1,8 @@
 // import { useState } from 'react';
 import { NavLink } from 'react-router-dom';
+import { Nav, Navbar as Navmenu } from "react-bootstrap";
 import styles from './Navbar.module.css'
-
+import "bootstrap/dist/css/bootstrap.min.css";
 
 const  Navbar = ( ) =>{
     // const [active, setActive] = useState(false);
@@ -50,6 +51,21 @@ const  Navbar = ( ) =>{
                     </NavLink>
                 </li>
             </ul>
+            <Navmenu collapseOnSelect expand="lg" bg="white" variant="black">
+         
+            <Navmenu.Toggle aria-controls="responsive-navbar-nav" />
+                <Navmenu.Collapse id="responsive-navbar-nav">
+                    <Nav className="mr-auto">
+                        <Nav.Link href="/">Home</Nav.Link>
+                        <Nav.Link href="/imc">imc</Nav.Link>
+                        <Nav.Link href="/age">age</Nav.Link>
+                        <Nav.Link href="/clock">clock</Nav.Link>
+                        <Nav.Link href="/about">about</Nav.Link>
+                        <Nav.Link href="/contact">contact</Nav.Link>
+                    </Nav>
+                </Navmenu.Collapse>
+            </Navmenu>
+            {/* </div> */}
         </header>
     )
 }

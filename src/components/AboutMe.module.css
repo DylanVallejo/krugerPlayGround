@@ -21,3 +21,21 @@
 h2{
     text-align: left;
 }
+
+@media (max-width:768px) {
+    .aboutContainer{
+        display: flex;
+        flex-direction: column;
+    }
+    .aboutImg > img{
+        height: 25vh;
+    }
+    h2{
+        text-align: center;
+        font-size: 10px;
+    }
+    .aboutText{
+        font-size: 0.9em;
+    }
+
+}
