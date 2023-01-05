@@ -68,7 +68,7 @@ line-height: 72px;
 
 @media (max-width:768px) {
    .formContainer{
-    width: 50%;
+    width: 80%;
     display: block;
    }
    .input:nth-child(1) {
@@ -91,8 +91,10 @@ line-height: 72px;
     .textarea{
         border: 1px solid rgba(0, 0, 0, 0.5);
         margin: 10px auto;
-        width: 100px;
+        width: 181.663px;
         height: 50px;
+        box-sizing: content-box;
+        
     }
     .buttonForm{
         display: block;
