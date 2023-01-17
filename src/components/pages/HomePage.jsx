@@ -1,4 +1,5 @@
 import styles from '../Home.module.css'
+import StarsBackground from '../StarsBackground'
 const HomePage = () =>{   
     
     return(
@@ -13,6 +14,7 @@ const HomePage = () =>{
                     i'll be glad to help you.
                 </p>
             </div>
+            <StarsBackground/>
 
         </>        
     )
