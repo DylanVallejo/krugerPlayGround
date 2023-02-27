@@ -1,20 +1,20 @@
-// import Cat from "../Cat.jsx"
-// import Counter from "../Counter.jsx"
-
+import styles from '../Home.module.css'
+import StarsBackground from '../StarsBackground'
 const HomePage = () =>{   
-
+    
     return(
         <>
             <div>
                 <h2>Welcome to my Playground</h2>
             </div>
-            <div>
+            <div className={styles.grettingSpech}>
                 <p>
-                    Hi everyOne! My name is Dylan Vallejo and this is my PlayGround
+                    Hi everyone! My name is Dylan Vallejo and this is my PlayGround
                     , check some of my proyects. If you like what   you see don't hesitate on contact me,
-                    i'll be glad to help you 
+                    i'll be glad to help you.
                 </p>
             </div>
+            <StarsBackground/>
 
         </>        
     )

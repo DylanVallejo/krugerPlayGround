@@ -1,0 +1,18 @@
+.grettingSpech{ 
+    text-align: center;
+    width: 800px;
+    margin: auto;
+    font-size: 30px;
+    /* textAlign: 'center,
+    width: '800px', 
+    margin: 'auto', 
+    fontSize: '30px' */
+}
+
+@media (max-width:768px) {
+    .grettingSpech{
+        width: auto;
+        padding: 1%;
+        font-size: 2em;
+    }
+}
