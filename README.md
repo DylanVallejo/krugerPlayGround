@@ -36,7 +36,7 @@ Use the following steps to run this Portfolio locally:
 ### Deployment
 
 For a live demo please click on the following link:
-https://krugerplayground.netlify.app
+https://dylan-playground.vercel.app
 
 - ENLACE MIO
 
