@@ -3,10 +3,16 @@
     width: 800px;
     margin: auto;
     font-size: 30px;
+    /* color: white; */
+
     /* textAlign: 'center,
     width: '800px', 
     margin: 'auto', 
     fontSize: '30px' */
+}
+.titulo{
+    /* color: white; */
+    text-align: center;
 }
 
 @media (max-width:768px) {

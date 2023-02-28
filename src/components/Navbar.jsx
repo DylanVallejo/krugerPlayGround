@@ -53,7 +53,7 @@ const  Navbar = ( ) =>{
                                     style={({ isActive }) => ({
                                     textDecoration: isActive ? 'solid underline purple 2px' : 'none',
                                 })}>
-                                Contact
+                                    Contact
                                 </NavLink>
                             </li>
                         </ul>
