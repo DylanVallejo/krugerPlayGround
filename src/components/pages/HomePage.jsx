@@ -1,11 +1,11 @@
 import styles from '../Home.module.css'
-import StarsBackground from '../StarsBackground'
+// import StarsBackground from '../StarsBackground'
 const HomePage = () =>{   
     
     return(
         <>
             <div>
-                <h2>Welcome to my Playground</h2>
+                <h2 className={styles.titulo}>Welcome to my Playground</h2>
             </div>
             <div className={styles.grettingSpech}>
                 <p>
@@ -14,7 +14,6 @@ const HomePage = () =>{
                     i'll be glad to help you.
                 </p>
             </div>
-            <StarsBackground/>
 
         </>        
     )

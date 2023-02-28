@@ -5,6 +5,9 @@
     grid-auto-rows: minmax(300px, auto);
     margin: 75px ;
 }
+/* .text{
+    color: white;
+} */
 .aboutImg{
     grid: 1/2;
     margin-right: 20px;
